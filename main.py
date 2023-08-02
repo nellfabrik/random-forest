@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_a
 import matplotlib.pyplot as plt
 
 # Function to bin the dependent variable
+# Test
 def bin_count_bi_1(count):
     # Binning the "COUNT_BI_1" variable into two categories: 0 and 1
     return 0 if count == 0 else 1
